@@ -19,7 +19,7 @@ For each statistical analysis, you’ll write a summary interpretation of the fi
 
 ## Linear Regression to Predict MPG
 
-![Linear Regression Model]()
+![Linear Regression Model](https://github.com/Itgotworse26/MechaCar_Statistical_Analysis/blob/main/Images/Linear_Regression.JPG)
 
 The linear regression model above estimates that:
 
@@ -36,34 +36,34 @@ mpg = vehicle_length(6.267) + vehicle_weight(0.0012) + spoiler_angle(0.0688) + g
 
 ## Summary Statistics on Suspension Coils
 
-![Total Summary]()
+![Total Summary](https://github.com/Itgotworse26/MechaCar_Statistical_Analysis/blob/main/Images/total_summary.JPG)
 
 * According to the total summary above, we can observe that the variance of the suspension coils is about 62.69 pounds per square inch. Therefore, it does not exceed the design specification of 100 pounds per square inch.
 
-![Lot Summary]()
+![Lot Summary](https://github.com/Itgotworse26/MechaCar_Statistical_Analysis/blob/main/Images/lot_summary.JPG)
 
 * However; when the manufacturing data is broken down by three lots, as shown above, we see that on the one hand, Lot 1 and 2 have variances of 0.98 and 7.47 that are well below the design specification of 100 pounds per square inch. On the other hand, Lot 3 has a much larger variance of 170.29 that is well above the design specification. The variance of Lot 3 is causing the PSI variance of the total lot population to increase significantly. 
 
-![Box Plot]()
+![Box Plot](https://github.com/Itgotworse26/MechaCar_Statistical_Analysis/blob/main/Images/Manufacturing_Lot.png)
 
 * The box plot above demonstrates just how large the variance of Lot 3 is compared to Lots 1 and 2.
 
 
 ## T-Tests on Suspension Coils
 
-![All Lots t-test]()
+![All Lots t-test](https://github.com/Itgotworse26/MechaCar_Statistical_Analysis/blob/main/Images/all_lots_T-Test.JPG)
 
 * The t-test for all lots was meant to determine if the PSI across the three lots were statistically different from the population mean of 1500 pounds per square inch. The results demonstrate that there was a sample mean of 1498.78 and a p-value of 0.06. Because the p-value is higher than the assumed statistical significance of 0.05, there is not enough evidence to fail to reject the null hypothesis. This means that the PSI across all manufacturing lots is statistically similar to the population mean of 1500 pounds per square inch.
 
-![Lot 1 t-test]()
+![Lot 1 t-test](https://github.com/Itgotworse26/MechaCar_Statistical_Analysis/blob/main/Images/lot1_T-Test.JPG)
 
 * Lot 1 results show that the sample mean is 1500 and the p-value is a perfect 1. There is no statistical difference from the population mean of 1500 pounds per square inch. In this case, there is not enough evidence fail to reject the null hypothesis.
 
-![Lot 2 t-test]()
+![Lot 2 t-test](https://github.com/Itgotworse26/MechaCar_Statistical_Analysis/blob/main/Images/lot2_T-Test.JPG)
 
 * Lot 2 results show sample mean is 1500.2 and the p-value is 0.61. Because the p-value is much higher than the assumed statistical significance of 0.05, there is not enough evidence fail to reject the null hypothesis. There is no statistical difference from the population mean of 1500 pounds per square inch.
 
-![Lot 3 t-test]()
+![Lot 3 t-test](https://github.com/Itgotworse26/MechaCar_Statistical_Analysis/blob/main/Images/lot3_T-Test.JPG)
 
 * Lot 3 results show sample mean is 1496.14 and the p-value is 0.04. Because the p-value is lower than the assumed statistical significance of 0.05, there is enough evidence the null hypothesis and accept the alternative hypothesis that the true mean is not equal to 1500. This means that this sample shows that there is a statistical difference from the population mean of 1500 pounds per square inch.
 
