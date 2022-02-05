@@ -81,4 +81,4 @@ There are several metrics AutosRUs can use to compare MechaCar against its compe
 
 * Ha (Alternative Hypothesis): MechaCar's specifications does not make a difference and its miles before service are similar to its competitors.
 
-To test this, we can take MechaCar's vehicle length and ground clearance; the most likely factors that can affect miles per gallons, gather data on many miles a MechaCar can go before needing a service shop, and comparing those against its competitors using a t-test. This should help determine whether MechaCar is ahead, similar, or lagging behind its competition in reliability. 
+To test this, we can take MechaCar's vehicle length and ground clearance; the most likely factors that can affect miles per gallons, gather data on how many miles a MechaCar can go before needing a service shop, and compare them against its competitors using a t-test. This should help determine whether MechaCar is ahead, similar, or lagging behind its competition in reliability. 
