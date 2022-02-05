@@ -55,7 +55,7 @@ mpg = vehicle_length(6.267) + vehicle_weight(0.0012) + spoiler_angle(0.0688) + g
 
 ![All Lots t-test](https://github.com/Itgotworse26/MechaCar_Statistical_Analysis/blob/main/Images/all_lots_T-Test.JPG)
 
-* The t-test for all lots was meant to determine if the PSI across the three lots were statistically different from the population mean of 1500 pounds per square inch. The results demonstrate that there was a sample mean of 1498.78 and a p-value of 0.06. Because the p-value is higher than the assumed statistical significance of 0.05, there is not enough evidence to fail to reject the null hypothesis. This means that the PSI across all manufacturing lots is statistically similar to the population mean of 1500 pounds per square inch.
+* The t-test for all lots was meant to determine if the PSI across the three lots were statistically different from the population mean of 1500 pounds per square inch. The results demonstrates a sample mean of 1498.78 and a p-value of 0.06. Because the p-value is higher than the assumed statistical significance of 0.05, there is not enough evidence to fail to reject the null hypothesis. This means that the PSI across all manufacturing lots is statistically similar to the population mean of 1500 pounds per square inch.
 
 
 ![Lot 1 t-test](https://github.com/Itgotworse26/MechaCar_Statistical_Analysis/blob/main/Images/lot1_T-Test.JPG)
@@ -77,8 +77,8 @@ mpg = vehicle_length(6.267) + vehicle_weight(0.0012) + spoiler_angle(0.0688) + g
 
 There are several metrics AutosRUs can use to compare MechaCar against its competitors. Considering the focus of this project on MechaCar's suspension coils, reliability is a good metric to use. AutosRUs can use MechaCar's specifications to compare it against its peers on the market to see how many miles MechaCar can go before having to spend time in a repair shop. They can use their car's specifications and milage to answer which hypothesis is correct:
 
-* H0 (Null Hypothesis): MechaCar's specifications means that it can go more miles before having to go into a service shop.
+* H<sub>0</sub> (Null Hypothesis): MechaCar's specifications means that it can go more miles before having to go into a service shop.
 
-* Ha (Alternative Hypothesis): MechaCar's specifications does not make a difference and its miles before service are similar to its competitors.
+* H<sub>a</sub> (Alternative Hypothesis): MechaCar's specifications does not make a difference and its miles before service are similar to its competitors.
 
 To test this, we can take MechaCar's vehicle length and ground clearance; the most likely factors that can affect miles per gallons, gather data on how many miles a MechaCar can go before needing a service shop, and compare them against its competitors using a t-test. This should help determine whether MechaCar is ahead, similar, or lagging behind its competition in reliability. 
