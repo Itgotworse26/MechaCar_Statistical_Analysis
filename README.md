@@ -21,7 +21,13 @@ For each statistical analysis, you’ll write a summary interpretation of the fi
 
 ![Linear Regression Model](https://github.com/Itgotworse26/MechaCar_Statistical_Analysis/blob/main/Images/Linear_Regression.JPG)
 
-* According to the model above, vehicle length and vehicle ground clearance are likely to have a significant impact on the miles per gallon on the MechaCar prototype due to providing non-random amounts of variance to the model. Conversely, the vehicle weight, spoiler angle, and All Wheel Drive (AWD) indicate a random amount of variance with the dataset that makes it less likely to have a significant impact on the miles per gallon.
+The linear regression model above estimates that:
+
+```
+mpg = vehicle_length(6.267) + vehicle_weight(0.0012) + spoiler_angle(0.0688) + ground_clearance(3.546) + AWD(-3.411) - 104.0
+```
+
+* According to the formula and model above, vehicle length and vehicle ground clearance are likely to have a significant impact on the miles per gallon on the MechaCar prototype due to providing non-random amounts of variance to the model. Conversely, the vehicle weight, spoiler angle, and All Wheel Drive (AWD) indicate a random amount of variance with the dataset that makes it less likely to have a significant impact on the miles per gallon.
 
 * Given the model's p-value of 5.35e-11, which is lower than the 0.05 assumed statistical significance, there is strong evidence against the null hypothesis that slope = 0. Therefore, we can accept the alternative hypothesis that the slope is not 0.
 
