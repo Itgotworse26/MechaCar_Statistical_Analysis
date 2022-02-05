@@ -31,7 +31,7 @@ mpg = vehicle_length(6.267) + vehicle_weight(0.0012) + spoiler_angle(0.0688) + g
 
 * Given the model's p-value of 5.35e-11, which is lower than the 0.05 assumed statistical significance, there is strong evidence against the null hypothesis that slope = 0. Therefore, we can accept the alternative hypothesis that the slope is not 0.
 
-* The model's r-squared value of .7149 means that about 71% of the variance in mpg predictions can be explained by this model, while 29% cannot. In other words, the variables of vehicle length, spoiler angle, ground clearance, and AWD have a strong positive association with mpg. Therefore, this model effectively predicts the mpg of MechaCar prototypes.
+* The model's r-squared value of .7149 means that about 71% of the variance in mpg predictions can be explained by this model, while 29% cannot. In other words, the variables of vehicle length, spoiler angle, ground clearance, and AWD have a strong positive association with mpg. Therefore, this model effectively predicts the miles per gallon of MechaCar prototypes.
 
 
 ## Summary Statistics on Suspension Coils
@@ -43,7 +43,7 @@ mpg = vehicle_length(6.267) + vehicle_weight(0.0012) + spoiler_angle(0.0688) + g
 
 ![Lot Summary](https://github.com/Itgotworse26/MechaCar_Statistical_Analysis/blob/main/Images/lot_summary.JPG)
 
-* However; when the manufacturing data is broken down by three lots, as shown above, we see that on the one hand, Lot 1 and 2 have variances of 0.98 and 7.47 that are well below the design specification of 100 pounds per square inch. On the other hand, Lot 3 has a much larger variance of 170.29 that is well above the design specification. The variance of Lot 3 is causing the PSI variance of the total lot population to increase significantly. 
+* However; when the manufacturing data is broken down by three lots as shown above, we see that on the one hand, Lot 1 and 2 have variances of 0.98 and 7.47 that are well below the design specification of 100 pounds per square inch. On the other hand, Lot 3 has a much larger variance of 170.29 that is well above the design specification. The variance of Lot 3 is causing the PSI variance of the total lot population to increase significantly. 
 
 
 ![Box Plot](https://github.com/Itgotworse26/MechaCar_Statistical_Analysis/blob/main/Images/Manufacturing_Lot.png)
@@ -60,17 +60,17 @@ mpg = vehicle_length(6.267) + vehicle_weight(0.0012) + spoiler_angle(0.0688) + g
 
 ![Lot 1 t-test](https://github.com/Itgotworse26/MechaCar_Statistical_Analysis/blob/main/Images/lot1_T-Test.JPG)
 
-* Lot 1 results show that the sample mean is 1500 and the p-value is a perfect 1. There is no statistical difference from the population mean of 1500 pounds per square inch. In this case, there is not enough evidence fail to reject the null hypothesis.
+* Lot 1 t-test results show that the sample mean is 1500 and the p-value is a perfect 1. There is no statistical difference from the population mean of 1500 pounds per square inch. In this case, there is not enough evidence fail to reject the null hypothesis.
 
 
 ![Lot 2 t-test](https://github.com/Itgotworse26/MechaCar_Statistical_Analysis/blob/main/Images/lot2_T-Test.JPG)
 
-* Lot 2 results show sample mean is 1500.2 and the p-value is 0.61. Because the p-value is much higher than the assumed statistical significance of 0.05, there is not enough evidence fail to reject the null hypothesis. There is no statistical difference from the population mean of 1500 pounds per square inch.
+* Lot 2 t-test results show sample mean is 1500.2 and the p-value is 0.61. Because the p-value is much higher than the assumed statistical significance of 0.05, there is not enough evidence fail to reject the null hypothesis. There is no statistical difference from the population mean of 1500 pounds per square inch.
 
 
 ![Lot 3 t-test](https://github.com/Itgotworse26/MechaCar_Statistical_Analysis/blob/main/Images/lot3_T-Test.JPG)
 
-* Lot 3 results show sample mean is 1496.14 and the p-value is 0.04. Because the p-value is lower than the assumed statistical significance of 0.05, there is enough evidence the null hypothesis and accept the alternative hypothesis that the true mean is not equal to 1500. This means that this sample shows that there is a statistical difference from the population mean of 1500 pounds per square inch.
+* Lot 3 t-test results show sample mean is 1496.14 and the p-value is 0.04. Because the p-value is lower than the assumed statistical significance of 0.05, there is enough evidence the null hypothesis and accept the alternative hypothesis that the true mean is not equal to 1500. This means that this sample shows that there is a statistical difference from the population mean of 1500 pounds per square inch.
 
 
 ## Study Design: MechaCar vs Competition
